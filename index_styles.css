@@ -14,11 +14,17 @@ body {
     font-weight: 400;
     font-style: normal;
     padding: 100px 0px;
-    background: fuchsia;
+    background: rgb(250, 98, 34);
     color: white;
 }
 
 /* ///////////////////// NAVBAR ///////////////////// */
+
+#note {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
 
 #fixed_bar {
     position: fixed;
@@ -40,7 +46,7 @@ body {
 }
 
 #title_text {
-    color: fuchsia;
+    color: rgb(250, 98, 34);
     padding: 5px;
     /* cursor: pointer; */
     font-size: 26px;
@@ -79,7 +85,7 @@ body {
     justify-content: center;
     text-align: center;
     background: white;
-    color: fuchsia;
+    color: rgb(250, 98, 34);
     margin: 0px 0px 10px 0px;
     width: 100%;
 }
@@ -93,8 +99,7 @@ body {
 }
 
 #your_name_text,
-#your_age_text,
-#your_favorite_text {
+#your_donation_text {
     padding: 2px 2px 2px 10px;
     font-weight: bold;
     font-size: 20px;
@@ -104,7 +109,7 @@ body {
 }
 
 #your_name_text:focus,
-#your_age_text:focus,
+#your_donation_text:focus,
 #your_favorite_text:focus {
     border: 1px black solid;
     border-radius: 10px 10px 10px 10px;
@@ -127,9 +132,9 @@ body {
     display: none;
 }
 
-#birthday_title,
-#birthday_age,
-#birthday_favorite {
+#thank_you_name,
+#thank_you_efficiency,
+#thank_you_total {
     display: flex;
     justify-self: center;
     text-align: center;
