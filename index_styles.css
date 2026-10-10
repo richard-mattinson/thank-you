@@ -138,6 +138,7 @@ body {
     display: flex;
     justify-self: center;
     text-align: center;
+    margin: 10px 0 10px 0;
 }
 
 #birthday_title {
